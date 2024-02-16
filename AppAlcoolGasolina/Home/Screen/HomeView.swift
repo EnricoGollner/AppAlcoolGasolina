@@ -9,7 +9,6 @@ import Foundation
 import UIKit
 
 class HomeView: UIView {
-    
     lazy var backgroundImage: UIImageView = {
         let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
@@ -29,13 +28,12 @@ class HomeView: UIView {
     
     private func addElements() {
         self.addSubview(backgroundImage)
-        
-        setUpConstraints()
+        self.setUpConstraints()
     }
     
     private func setUpConstraints() {
         NSLayoutConstraint.activate([
-            backgroundImage.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor),
+            backgroundImage.topAnchor.constraint(equalTo: topAnchor),
             backgroundImage.leadingAnchor.constraint(equalTo: leadingAnchor),
             backgroundImage.trailingAnchor.constraint(equalTo: trailingAnchor),
             backgroundImage.bottomAnchor.constraint(equalTo: bottomAnchor),
