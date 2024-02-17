@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		024988152B8103BA00EFBF38 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024988142B8103BA00EFBF38 /* CalculatorView.swift */; };
+		024988172B8103D200EFBF38 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024988162B8103D200EFBF38 /* CalculatorViewController.swift */; };
+		0249881A2B81069900EFBF38 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024988192B81069900EFBF38 /* Colors.swift */; };
+		0249881E2B8108EF00EFBF38 /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0249881D2B8108EF00EFBF38 /* UIView + Extension.swift */; };
 		02EB07DB2B01BE4500D9E165 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EB07DA2B01BE4500D9E165 /* AppDelegate.swift */; };
 		02EB07DD2B01BE4500D9E165 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EB07DC2B01BE4500D9E165 /* SceneDelegate.swift */; };
 		02EB07E42B01BE4700D9E165 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02EB07E32B01BE4700D9E165 /* Assets.xcassets */; };
@@ -36,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		024988142B8103BA00EFBF38 /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
+		024988162B8103D200EFBF38 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		024988192B81069900EFBF38 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		0249881D2B8108EF00EFBF38 /* UIView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
 		02EB07D72B01BE4500D9E165 /* AppAlcoolGasolina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppAlcoolGasolina.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02EB07DA2B01BE4500D9E165 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02EB07DC2B01BE4500D9E165 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +84,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		024988122B81033700EFBF38 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				024988132B81038F00EFBF38 /* View */,
+				024988162B8103D200EFBF38 /* CalculatorViewController.swift */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		024988132B81038F00EFBF38 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				024988142B8103BA00EFBF38 /* CalculatorView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		024988182B81068C00EFBF38 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				024988192B81069900EFBF38 /* Colors.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		0249881C2B8108E100EFBF38 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0249881D2B8108EF00EFBF38 /* UIView + Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		02EB07CE2B01BE4500D9E165 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +140,9 @@
 		02EB07D92B01BE4500D9E165 /* AppAlcoolGasolina */ = {
 			isa = PBXGroup;
 			children = (
+				0249881C2B8108E100EFBF38 /* Extension */,
+				024988182B81068C00EFBF38 /* Utils */,
+				024988122B81033700EFBF38 /* Calculator */,
 				02EB080B2B01BE6300D9E165 /* Home */,
 				02EB07DA2B01BE4500D9E165 /* AppDelegate.swift */,
 				02EB07DC2B01BE4500D9E165 /* SceneDelegate.swift */,
@@ -273,9 +317,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0249881E2B8108EF00EFBF38 /* UIView + Extension.swift in Sources */,
+				024988172B8103D200EFBF38 /* CalculatorViewController.swift in Sources */,
 				02EB07DB2B01BE4500D9E165 /* AppDelegate.swift in Sources */,
 				02EB080F2B01C0A400D9E165 /* HomeView.swift in Sources */,
+				0249881A2B81069900EFBF38 /* Colors.swift in Sources */,
 				02EB07DD2B01BE4500D9E165 /* SceneDelegate.swift in Sources */,
+				024988152B8103BA00EFBF38 /* CalculatorView.swift in Sources */,
 				02EB080D2B01C08200D9E165 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

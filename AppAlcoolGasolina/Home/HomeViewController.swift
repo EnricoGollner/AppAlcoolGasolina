@@ -13,11 +13,20 @@ class HomeViewController: UIViewController {
     override func loadView() {
         self.view = homeView
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.homeView.configDelegate(delegate: self)
     }
+}
 
-
+extension HomeViewController: HomeViewDelegate {
+    func startTappedButton() {
+        self.navigationController?.pushViewController(CalculatorViewController(), animated: true)
+    }
 }
 
