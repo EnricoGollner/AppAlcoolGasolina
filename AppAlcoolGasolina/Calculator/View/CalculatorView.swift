@@ -23,6 +23,7 @@ class CalculatorView: UIView {
         let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
         imageView.image = UIImage(named: "bg_blur")
+        imageView.contentMode = .scaleAspectFit
         
         return imageView
     }()
@@ -80,7 +81,7 @@ class CalculatorView: UIView {
         button.titleLabel?.font = .systemFont(ofSize: 18, weight: .bold)
         button.clipsToBounds = true
         button.layer.cornerRadius = 8
-        button.backgroundColor = AppColors.pinkColor
+        button.backgroundColor = AppColors.disabledButtonColor
         button.addTarget(self, action: #selector(calculateButtonTapped), for: .touchUpInside)
         
         return button
@@ -141,5 +142,4 @@ class CalculatorView: UIView {
             self.calculateButton.heightAnchor.constraint(equalToConstant: 44)
         ])
     }
-
 }
