@@ -23,6 +23,7 @@ class CalculatorViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.hideKeyboardWhenTappedArround()
         self.alert = Alert(controller: self)
         self.calculatorView?.configDelegate(delegate: self)
     }
@@ -62,10 +63,16 @@ extension CalculatorViewController: CalculatorViewDelegate {
             let ethanolPrice: Double = (formatter.number(from: calculatorView?.ethanolTextField.text ?? "0.0") as? Double) ?? 0.0
             let gasPrice: Double = (formatter.number(from: calculatorView?.gasTextField.text ?? "0.0") as? Double) ?? 0.0
             
-            //MARK: - O valor de 0.7 é uma referência comumente usada para determinar se é mais vantajoso utilizar álcool (etanol) ou gasolina com base nos preços relativos dos combustíveis.
-            ethanolPrice / gasPrice > 0.7 ? print("Melhor utilizar Gasolina!") : print("Melgor utilizar Álcool!")
+            let vc: ResultViewController?
             
-            self.navigationController?.pushViewController(ResultViewController(), animated: true)
+            //MARK: - O valor de 0.7 é uma referência comumente usada para determinar se é mais vantajoso utilizar álcool (etanol) ou gasolina com base nos preços relativos dos combustíveis.
+            if ethanolPrice / gasPrice > 0.7 {
+                vc = ResultViewController(result: .gas)
+            } else {
+                vc = ResultViewController(result: .ethanol)
+            }
+            
+            self.navigationController?.pushViewController(vc ?? UIViewController(), animated: true)
         }
         
     }

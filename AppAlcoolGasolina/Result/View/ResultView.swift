@@ -73,7 +73,7 @@ class ResultView: UIView {
         button.titleLabel?.font = .systemFont(ofSize: 18, weight: .bold)
         button.clipsToBounds = true
         button.layer.cornerRadius = 8
-        button.backgroundColor = AppColors.disabledButtonColor
+        button.backgroundColor = AppColors.pinkColor
         button.addTarget(self, action: #selector(self.calculateAgainTapped), for: .touchUpInside)
         
         return button

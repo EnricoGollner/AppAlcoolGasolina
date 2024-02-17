@@ -14,6 +14,8 @@
 		024988212B81156C00EFBF38 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024988202B81156C00EFBF38 /* Alert.swift */; };
 		024988252B8118BE00EFBF38 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024988242B8118BE00EFBF38 /* ResultView.swift */; };
 		024988272B8118D300EFBF38 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024988262B8118D300EFBF38 /* ResultViewController.swift */; };
+		0249882A2B8125AC00EFBF38 /* UITextField + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024988292B8125AC00EFBF38 /* UITextField + Extension.swift */; };
+		0249882C2B81278500EFBF38 /* UIViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0249882B2B81278500EFBF38 /* UIViewController + Extension.swift */; };
 		02EB07DB2B01BE4500D9E165 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EB07DA2B01BE4500D9E165 /* AppDelegate.swift */; };
 		02EB07DD2B01BE4500D9E165 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EB07DC2B01BE4500D9E165 /* SceneDelegate.swift */; };
 		02EB07E42B01BE4700D9E165 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02EB07E32B01BE4700D9E165 /* Assets.xcassets */; };
@@ -50,6 +52,8 @@
 		024988202B81156C00EFBF38 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		024988242B8118BE00EFBF38 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 		024988262B8118D300EFBF38 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		024988292B8125AC00EFBF38 /* UITextField + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField + Extension.swift"; sourceTree = "<group>"; };
+		0249882B2B81278500EFBF38 /* UIViewController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extension.swift"; sourceTree = "<group>"; };
 		02EB07D72B01BE4500D9E165 /* AppAlcoolGasolina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppAlcoolGasolina.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02EB07DA2B01BE4500D9E165 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02EB07DC2B01BE4500D9E165 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -119,6 +123,8 @@
 			isa = PBXGroup;
 			children = (
 				0249881D2B8108EF00EFBF38 /* UIView + Extension.swift */,
+				024988292B8125AC00EFBF38 /* UITextField + Extension.swift */,
+				0249882B2B81278500EFBF38 /* UIViewController + Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -361,6 +367,8 @@
 				024988152B8103BA00EFBF38 /* CalculatorView.swift in Sources */,
 				02EB080D2B01C08200D9E165 /* HomeViewController.swift in Sources */,
 				024988272B8118D300EFBF38 /* ResultViewController.swift in Sources */,
+				0249882C2B81278500EFBF38 /* UIViewController + Extension.swift in Sources */,
+				0249882A2B8125AC00EFBF38 /* UITextField + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,8 +7,22 @@
 
 import UIKit
 
+enum BestFuel: String {
+    case gas = "Gasolina"
+    case ethanol = "Álcool"
+}
+
 class ResultViewController: UIViewController {
     var resultView: ResultView?
+    
+    init(result: BestFuel) {
+        self.resultView?.resultLabel.text = result.rawValue
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
     
     override func loadView() {
         resultView = ResultView()
