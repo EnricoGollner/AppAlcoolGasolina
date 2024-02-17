@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		024988152B8103BA00EFBF38 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024988142B8103BA00EFBF38 /* CalculatorView.swift */; };
+		024988172B8103D200EFBF38 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024988162B8103D200EFBF38 /* CalculatorViewController.swift */; };
+		0249881A2B81069900EFBF38 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024988192B81069900EFBF38 /* AppColors.swift */; };
+		0249881E2B8108EF00EFBF38 /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0249881D2B8108EF00EFBF38 /* UIView + Extension.swift */; };
+		024988212B81156C00EFBF38 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024988202B81156C00EFBF38 /* Alert.swift */; };
+		024988252B8118BE00EFBF38 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024988242B8118BE00EFBF38 /* ResultView.swift */; };
+		024988272B8118D300EFBF38 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024988262B8118D300EFBF38 /* ResultViewController.swift */; };
+		0249882A2B8125AC00EFBF38 /* UITextField + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024988292B8125AC00EFBF38 /* UITextField + Extension.swift */; };
+		0249882C2B81278500EFBF38 /* UIViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0249882B2B81278500EFBF38 /* UIViewController + Extension.swift */; };
 		02EB07DB2B01BE4500D9E165 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EB07DA2B01BE4500D9E165 /* AppDelegate.swift */; };
 		02EB07DD2B01BE4500D9E165 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EB07DC2B01BE4500D9E165 /* SceneDelegate.swift */; };
 		02EB07E42B01BE4700D9E165 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02EB07E32B01BE4700D9E165 /* Assets.xcassets */; };
 		02EB07E72B01BE4700D9E165 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02EB07E52B01BE4700D9E165 /* LaunchScreen.storyboard */; };
-		02EB07F22B01BE4700D9E165 /* AppAlcoolGasolinaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EB07F12B01BE4700D9E165 /* AppAlcoolGasolinaTests.swift */; };
-		02EB07FC2B01BE4700D9E165 /* AppAlcoolGasolinaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EB07FB2B01BE4700D9E165 /* AppAlcoolGasolinaUITests.swift */; };
-		02EB07FE2B01BE4700D9E165 /* AppAlcoolGasolinaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EB07FD2B01BE4700D9E165 /* AppAlcoolGasolinaUITestsLaunchTests.swift */; };
 		02EB080D2B01C08200D9E165 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EB080C2B01C08200D9E165 /* HomeViewController.swift */; };
 		02EB080F2B01C0A400D9E165 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EB080E2B01C0A400D9E165 /* HomeView.swift */; };
+		70065801BA9DDB88971D537B /* libPods-AppAlcoolGasolina.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D11FE78C1B1349847364DDB /* libPods-AppAlcoolGasolina.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		024988142B8103BA00EFBF38 /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
+		024988162B8103D200EFBF38 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		024988192B81069900EFBF38 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		0249881D2B8108EF00EFBF38 /* UIView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
+		024988202B81156C00EFBF38 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		024988242B8118BE00EFBF38 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		024988262B8118D300EFBF38 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		024988292B8125AC00EFBF38 /* UITextField + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField + Extension.swift"; sourceTree = "<group>"; };
+		0249882B2B81278500EFBF38 /* UIViewController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extension.swift"; sourceTree = "<group>"; };
 		02EB07D72B01BE4500D9E165 /* AppAlcoolGasolina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppAlcoolGasolina.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02EB07DA2B01BE4500D9E165 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02EB07DC2B01BE4500D9E165 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,12 +59,12 @@
 		02EB07E62B01BE4700D9E165 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02EB07E82B01BE4700D9E165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02EB07ED2B01BE4700D9E165 /* AppAlcoolGasolinaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppAlcoolGasolinaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		02EB07F12B01BE4700D9E165 /* AppAlcoolGasolinaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAlcoolGasolinaTests.swift; sourceTree = "<group>"; };
 		02EB07F72B01BE4700D9E165 /* AppAlcoolGasolinaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppAlcoolGasolinaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		02EB07FB2B01BE4700D9E165 /* AppAlcoolGasolinaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAlcoolGasolinaUITests.swift; sourceTree = "<group>"; };
-		02EB07FD2B01BE4700D9E165 /* AppAlcoolGasolinaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAlcoolGasolinaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		02EB080C2B01C08200D9E165 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		02EB080E2B01C0A400D9E165 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0D11FE78C1B1349847364DDB /* libPods-AppAlcoolGasolina.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppAlcoolGasolina.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8127DE47FFF8C669CB4108DA /* Pods-AppAlcoolGasolina.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppAlcoolGasolina.debug.xcconfig"; path = "Target Support Files/Pods-AppAlcoolGasolina/Pods-AppAlcoolGasolina.debug.xcconfig"; sourceTree = "<group>"; };
+		8FE1B8D8A591D395F20BDA58 /* Pods-AppAlcoolGasolina.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppAlcoolGasolina.release.xcconfig"; path = "Target Support Files/Pods-AppAlcoolGasolina/Pods-AppAlcoolGasolina.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70065801BA9DDB88971D537B /* libPods-AppAlcoolGasolina.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +93,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		024988122B81033700EFBF38 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				024988132B81038F00EFBF38 /* View */,
+				024988162B8103D200EFBF38 /* CalculatorViewController.swift */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		024988132B81038F00EFBF38 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				024988142B8103BA00EFBF38 /* CalculatorView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		024988182B81068C00EFBF38 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				024988192B81069900EFBF38 /* AppColors.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		0249881C2B8108E100EFBF38 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0249881D2B8108EF00EFBF38 /* UIView + Extension.swift */,
+				024988292B8125AC00EFBF38 /* UITextField + Extension.swift */,
+				0249882B2B81278500EFBF38 /* UIViewController + Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		0249881F2B81155400EFBF38 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				024988202B81156C00EFBF38 /* Alert.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		024988222B8118A200EFBF38 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				024988232B8118A700EFBF38 /* View */,
+				024988262B8118D300EFBF38 /* ResultViewController.swift */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		024988232B8118A700EFBF38 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				024988242B8118BE00EFBF38 /* ResultView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		02EB07CE2B01BE4500D9E165 = {
 			isa = PBXGroup;
 			children = (
 				02EB07D92B01BE4500D9E165 /* AppAlcoolGasolina */,
-				02EB07F02B01BE4700D9E165 /* AppAlcoolGasolinaTests */,
-				02EB07FA2B01BE4700D9E165 /* AppAlcoolGasolinaUITests */,
 				02EB07D82B01BE4500D9E165 /* Products */,
+				A6416A76E154D9CC47FCA223 /* Pods */,
+				41D4FF22A0934DA0578AD893 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +176,11 @@
 		02EB07D92B01BE4500D9E165 /* AppAlcoolGasolina */ = {
 			isa = PBXGroup;
 			children = (
+				024988222B8118A200EFBF38 /* Result */,
+				0249881F2B81155400EFBF38 /* Alert */,
+				0249881C2B8108E100EFBF38 /* Extension */,
+				024988182B81068C00EFBF38 /* Utils */,
+				024988122B81033700EFBF38 /* Calculator */,
 				02EB080B2B01BE6300D9E165 /* Home */,
 				02EB07DA2B01BE4500D9E165 /* AppDelegate.swift */,
 				02EB07DC2B01BE4500D9E165 /* SceneDelegate.swift */,
@@ -107,23 +189,6 @@
 				02EB07E82B01BE4700D9E165 /* Info.plist */,
 			);
 			path = AppAlcoolGasolina;
-			sourceTree = "<group>";
-		};
-		02EB07F02B01BE4700D9E165 /* AppAlcoolGasolinaTests */ = {
-			isa = PBXGroup;
-			children = (
-				02EB07F12B01BE4700D9E165 /* AppAlcoolGasolinaTests.swift */,
-			);
-			path = AppAlcoolGasolinaTests;
-			sourceTree = "<group>";
-		};
-		02EB07FA2B01BE4700D9E165 /* AppAlcoolGasolinaUITests */ = {
-			isa = PBXGroup;
-			children = (
-				02EB07FB2B01BE4700D9E165 /* AppAlcoolGasolinaUITests.swift */,
-				02EB07FD2B01BE4700D9E165 /* AppAlcoolGasolinaUITestsLaunchTests.swift */,
-			);
-			path = AppAlcoolGasolinaUITests;
 			sourceTree = "<group>";
 		};
 		02EB080B2B01BE6300D9E165 /* Home */ = {
@@ -143,6 +208,23 @@
 			path = Screen;
 			sourceTree = "<group>";
 		};
+		41D4FF22A0934DA0578AD893 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D11FE78C1B1349847364DDB /* libPods-AppAlcoolGasolina.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6416A76E154D9CC47FCA223 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8127DE47FFF8C669CB4108DA /* Pods-AppAlcoolGasolina.debug.xcconfig */,
+				8FE1B8D8A591D395F20BDA58 /* Pods-AppAlcoolGasolina.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +232,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02EB08012B01BE4700D9E165 /* Build configuration list for PBXNativeTarget "AppAlcoolGasolina" */;
 			buildPhases = (
+				5282FB8A04F3EC59DFFF0620 /* [CP] Check Pods Manifest.lock */,
 				02EB07D32B01BE4500D9E165 /* Sources */,
 				02EB07D42B01BE4500D9E165 /* Frameworks */,
 				02EB07D52B01BE4500D9E165 /* Resources */,
+				D3CD9E257BB24B4E44AFD6D2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,15 +352,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5282FB8A04F3EC59DFFF0620 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppAlcoolGasolina-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3CD9E257BB24B4E44AFD6D2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppAlcoolGasolina/Pods-AppAlcoolGasolina-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppAlcoolGasolina/Pods-AppAlcoolGasolina-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppAlcoolGasolina/Pods-AppAlcoolGasolina-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		02EB07D32B01BE4500D9E165 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				024988212B81156C00EFBF38 /* Alert.swift in Sources */,
+				0249881E2B8108EF00EFBF38 /* UIView + Extension.swift in Sources */,
+				024988172B8103D200EFBF38 /* CalculatorViewController.swift in Sources */,
 				02EB07DB2B01BE4500D9E165 /* AppDelegate.swift in Sources */,
 				02EB080F2B01C0A400D9E165 /* HomeView.swift in Sources */,
+				0249881A2B81069900EFBF38 /* AppColors.swift in Sources */,
 				02EB07DD2B01BE4500D9E165 /* SceneDelegate.swift in Sources */,
+				024988252B8118BE00EFBF38 /* ResultView.swift in Sources */,
+				024988152B8103BA00EFBF38 /* CalculatorView.swift in Sources */,
 				02EB080D2B01C08200D9E165 /* HomeViewController.swift in Sources */,
+				024988272B8118D300EFBF38 /* ResultViewController.swift in Sources */,
+				0249882C2B81278500EFBF38 /* UIViewController + Extension.swift in Sources */,
+				0249882A2B8125AC00EFBF38 /* UITextField + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +419,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02EB07F22B01BE4700D9E165 /* AppAlcoolGasolinaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,8 +426,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02EB07FE2B01BE4700D9E165 /* AppAlcoolGasolinaUITestsLaunchTests.swift in Sources */,
-				02EB07FC2B01BE4700D9E165 /* AppAlcoolGasolinaUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,12 +577,14 @@
 		};
 		02EB08022B01BE4700D9E165 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8127DE47FFF8C669CB4108DA /* Pods-AppAlcoolGasolina.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9FV2U5727B;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AppAlcoolGasolina/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -475,12 +609,14 @@
 		};
 		02EB08032B01BE4700D9E165 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FE1B8D8A591D395F20BDA58 /* Pods-AppAlcoolGasolina.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9FV2U5727B;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AppAlcoolGasolina/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
