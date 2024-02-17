@@ -14,9 +14,10 @@ enum BestFuel: String {
 
 class ResultViewController: UIViewController {
     var resultView: ResultView?
+    var bestFuel: BestFuel
     
     init(result: BestFuel) {
-        self.resultView?.resultLabel.text = result.rawValue
+        self.bestFuel = result
         super.init(nibName: nil, bundle: nil)
     }
     
@@ -36,6 +37,7 @@ class ResultViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.resultView?.configDelegate(delegate: self)
+        self.resultView?.resultLabel.text = bestFuel.rawValue
     }
     
     func popViewController() {

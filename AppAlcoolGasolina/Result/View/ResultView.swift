@@ -60,7 +60,6 @@ class ResultView: UIView {
         label.translatesAutoresizingMaskIntoConstraints = false
         label.textColor = .white
         label.font = .boldSystemFont(ofSize: 73)
-        label.text = "Gasolina"
         
         return label
     }()
